@@ -103,6 +103,20 @@ html{
 }
 
 @media screen and (max-width: 700px){
+	.row .main h1{
+		font-family: Agency FB;
+		letter-spacing: 12px;
+		font-size: 50px;
+		margin-bottom: 0px;
+	}
+	.row .main p{
+		margin-top: 0px;
+		font-family: Sitka Subheading;
+	}
+
+}
+
+@media screen and (max-width: 700px){
 	.row{
 		
 		width: 100%;
@@ -163,7 +177,7 @@ hr{
 	justify-content: center;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
 	.about2{
 		grid-area: about;
 	}
