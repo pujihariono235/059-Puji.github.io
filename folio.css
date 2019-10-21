@@ -105,8 +105,8 @@ html{
 @media screen and (max-width: 700px){
 	.row .main h1{
 		font-family: Agency FB;
-		letter-spacing: 12px;
-		font-size: 50px;
+		letter-spacing: 6px;
+		font-size: 45px;
 		margin-bottom: 0px;
 	}
 	.row .main p{
