@@ -107,10 +107,10 @@ html{
 		font-family: Agency FB;
 		letter-spacing: 6px;
 		font-size: 45px;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 	.row .main p{
-		margin-top: 0px;
+		margin-top: 0;
 		font-family: Sitka Subheading;
 	}
 
@@ -263,7 +263,7 @@ hr{
 	display: grid;
 	grid-template-rows: 1fr;
 	justify-content: center;
-	padding: 30px;
+	padding-bottom: 20px;
 }
 .portofolio .folio h1{
 	display: grid;
@@ -284,7 +284,6 @@ hr{
 .pos img{
 
 	width: 300px;
-
 }
 
 .contact{
@@ -327,16 +326,14 @@ hr{
 }
 @media screen and (max-width: 700px){
 	.control {
- 	width: 400px;
- 	padding: 5px;
+ 	width: 350px;
  	font-size: 16px;
  	color: #495057;
  	background-color: #fff;
  	border: 1px solid #ced4da;
  	border-radius: 4px;
  	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
+	}
 }
 .footer{
 	width: 100%;
