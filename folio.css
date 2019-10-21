@@ -123,7 +123,6 @@ html{
 	.row .main h1, p{
 		display: flex;
 		justify-content: center;
-
 	}
 
 
@@ -139,7 +138,7 @@ hr{
 .about{
 	width: 100%;
 	background-color: #647088;
-	padding: 0px 50px;
+	padding: 0px 30px;
 	padding-bottom: 50px;
 }
 .about1{
@@ -151,14 +150,17 @@ hr{
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	flex-wrap: wrap;
+	justify-content: center;
 }
 .about2{
 	padding: 10px 50px;
-
+	display: grid;
+	justify-content: center;
 }
 .about2c1{
 	padding: 10px 50px;
+	display: grid;
+	justify-content: center;
 }
 
 @media screen and (max-width: 700px){
@@ -175,14 +177,13 @@ hr{
 	}
 
 }
-
 .table{
 	margin-top: 15px;
 	border-collapse: collapse;
-	width: 80%;
+	width: 500px;
 }
 .table td{
-	padding: 10px 25px;
+	padding: 10px 20px;
 	color: white;
 }
 .table tr{
@@ -194,11 +195,21 @@ hr{
 .table tr:nth-child(odd){
 	background-color: #8b8b8b;
 }
+
+@media screen and (max-width: 700px){
+	.table{
+	margin-top: 15px;
+	border-collapse: collapse;
+	width: 350px;
+	padding: 5px;
+	}
+}
+
 .skill{
 	display: grid;
 	grid-template-rows: 1fr;
 	justify-content: center;
-	padding: 10px;
+	padding-top: 10px;
 }
 
 .contain{
@@ -206,7 +217,9 @@ hr{
 	border-radius: 5px;
 	background-color: #b2b2b2;
 }
-
+.jarak{
+	padding: 0px 65px;
+}
 .skil{
 	text-align: right;
 	padding-right: 20px;
@@ -284,7 +297,7 @@ hr{
 
 }
 .control {
- 	width: 450px;
+ 	width: 520px;
  	padding: 5px;
  	font-size: 16px;
  	color: #495057;
@@ -297,6 +310,19 @@ hr{
 	width: 70px;
 	height: 30px;
 	border-radius: 5px;
+}
+@media screen and (max-width: 700px){
+	.control {
+ 	width: 400px;
+ 	padding: 5px;
+ 	font-size: 16px;
+ 	color: #495057;
+ 	background-color: #fff;
+ 	border: 1px solid #ced4da;
+ 	border-radius: 4px;
+ 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 }
 .footer{
 	width: 100%;
